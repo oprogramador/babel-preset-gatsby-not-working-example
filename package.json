@@ -1,5 +1,8 @@
 {
   "name": "foo",
+  "scripts": {
+    "build": "rm -rf .cache && rm -rf public && ./node_modules/.bin/gatsby build"
+  },
   "dependencies": {
     "gatsby": "^1.9.279"
   },
